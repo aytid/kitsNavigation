@@ -1,32 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<img src="logo.png">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Select Destination</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      text-align: center;
+    }
+    h1 {
+      background-color: powderblue;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    form {
+      margin-top: 50px;
+    }
+    input[type="button"] {
+      margin: 5px;
+      width: 200px;
+    }
+  </style>
 </head>
-<body style="text-align:center">
-<p>So you are at Dispensary</p>
-<h1 style="text-align:center;background-color:powderblue">SELECT DESTINATION</h1>
-<form style="text-align:center;" method="GET">
-		<br><br><br>
-	
-		<input type="button" value="BLOCK1-CE" onclick="fun1()">
-		<input type="button" value="BLOCK2-CSE" onclick="fun2()">
-		<input type="button" value="BLOCK3-ME" onclick="fun3()">
-		<br><br>
-		<input type="button" value="BLOCK4-ADMINISTRATIVE" onclick="fun4()">
-		<input type="button" value="BLOCK5-IT" onclick="fun5()">
-		<input type="button" value="BLOCK6-ECE" onclick="fun6()">
-		<input type="button" value="BLOCK7-I2RE" onclick="fun7()">
-		
-		<br><br>
-		<input type="button" value="LIBRARY" onclick="fun8()">
-		<input type="button" value="CANTEEN" onclick="fun9()">
-		<input type="button" value="BOYS HOSTEL" onclick="fun10()">
-		<input type="button" value="GIRLS HOSTEL" onclick="fun11()">
-		
-		<br><br>
-		<input type="button" value="INDOOR" onclick="fun12()">
-		<input type="button" value="AUDITORIUM" onclick="fun13()">
-</form>
+<body>
+  <div class="container mt-5">
+    <p>So you are at Dispensary</p>
+    <h1>SELECT DESTINATION</h1>
+    <form>
+      <input type="button" class="btn btn-primary" value="BLOCK1-CE" onclick="fun1()">
+      <input type="button" class="btn btn-primary" value="BLOCK2-CSE" onclick="fun2()">
+      <input type="button" class="btn btn-primary" value="BLOCK3-ME" onclick="fun3()">
+      <br><br>
+      <input type="button" class="btn btn-primary" value="BLOCK4-ADMINISTRATIVE" onclick="fun4()">
+      <input type="button" class="btn btn-primary" value="BLOCK5-IT" onclick="fun5()">
+      <input type="button" class="btn btn-primary" value="BLOCK6-ECE" onclick="fun6()">
+      <input type="button" class="btn btn-primary" value="BLOCK7-I2RE" onclick="fun7()">
+      <br><br>
+      <input type="button" class="btn btn-primary" value="LIBRARY" onclick="fun8()">
+      <input type="button" class="btn btn-primary" value="CANTEEN" onclick="fun9()">
+      <input type="button" class="btn btn-primary" value="BOYS HOSTEL" onclick="fun10()">
+      <input type="button" class="btn btn-primary" value="GIRLS HOSTEL" onclick="fun11()">
+      <br><br>
+      <input type="button" class="btn btn-primary" value="INDOOR" onclick="fun12()">
+      <input type="button" class="btn btn-primary" value="AUDITORIUM" onclick="fun13()">
+    </form>
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 <script>
 	function fun1()
 	{
